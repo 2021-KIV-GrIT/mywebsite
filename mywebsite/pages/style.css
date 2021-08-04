@@ -125,6 +125,7 @@ header ul > li {
     display: flex;
     justify-content: center;
     margin: 30px;
+    width: 50vw;
 }
 
 #member > .photo {
