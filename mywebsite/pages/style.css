@@ -104,22 +104,12 @@ header ul > li {
   flex-direction: column;
 }
 
-#memberInfo > h1 {
+#memberInfo > h1,
+#Title {
   text-align: center;
   margin-top: 50px;
   font-size: 40px;
   margin-bottom: 30px;
-}
-
-#member {
-  width: 30vw;
-  height: 300px;
-}
-
-#member > .photo {
-  width: 10vw;
-  height: 300px;
-  margin-top: 30px;
 }
 
 .text * {
@@ -133,17 +123,6 @@ header ul > li {
 
 .text > p {
   margin-top: 20px;
-}
-
-#content {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-#content > .item {
-  width: 30%;
 }
 
 #member {
@@ -163,6 +142,32 @@ header ul > li {
 #member > .text {
   margin-left: 50px;
   margin-top: 30px;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#video {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  width: 60vw;
+}
+
+.youtube {
+  width: 30vw;
+}
+
+.videoinfo {
+  margin-left: 30px;
+  width: 25vw;
+}
+
+.videoinfo > p {
+  margin-top: 10px;
 }
 
 footer {
