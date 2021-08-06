@@ -134,7 +134,7 @@ header ul > li {
 
 #member > .photo {
   height: 300px;
-  width: 300px;
+  min-width: 300px;
   background-size: cover;
   margin-right: 50px;
 }
