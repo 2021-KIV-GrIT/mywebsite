@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   color: #000;
-  box-sizing: border-box;
 }
 
 ul {
@@ -16,8 +15,7 @@ a {
 }
 
 .container {
-  width: 100vw;
-  margin: 0 auto;
+  width: 100%;
 }
 
 header {
@@ -98,7 +96,8 @@ header ul > li {
   background-color: white;
 }
 
-#memberInfo {
+#memberInfo,
+#content {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -127,7 +126,6 @@ header ul > li {
 
 #member {
   display: flex;
-  justify-content: center;
   margin: 30px;
   width: 50vw;
 }
@@ -136,18 +134,11 @@ header ul > li {
   height: 300px;
   min-width: 300px;
   background-size: cover;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 #member > .text {
-  margin-left: 50px;
   margin-top: 30px;
-}
-
-#content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 #video {
@@ -159,10 +150,10 @@ header ul > li {
 
 .youtube {
   width: 30vw;
+  margin-right: 50px;
 }
 
 .videoinfo {
-  margin-left: 30px;
   width: 25vw;
 }
 
