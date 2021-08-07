@@ -1,4 +1,11 @@
-# mywebsite
-GrIT 팀 my website 만들기 실습 예제 코드입니다.
+# Creating self introduction pages
+* Setting Folder Structure
+* Making Header (Connect Navigation)
+* Making Header (Connect Navigation)
+* Making Contents Section
 
-## Design
+#Pages
+* Home
+* About
+* Video
+* Exihibition
