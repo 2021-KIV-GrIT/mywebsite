@@ -72,11 +72,12 @@ header ul > li {
   font-size: 48px;
 }
 
-#title {
+.title {
   font-size: 48px;
   height: 300px;
-  text-align: center;
-  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #study {
@@ -86,7 +87,7 @@ header ul > li {
 
 #study > .photo {
   flex: 3;
-  min-height: 500px;
+  min-height: 400px;
   background-size: cover;
 }
 
