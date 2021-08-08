@@ -112,10 +112,6 @@ header ul > li {
   margin-bottom: 30px;
 }
 
-.text * {
-  width: 20vw;
-}
-
 .text > h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
