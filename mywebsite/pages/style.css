@@ -98,13 +98,15 @@ header ul > li {
 }
 
 #memberInfo,
-#content {
+#content,
+#assignment {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 #memberInfo > h1,
+#assignment > h1,
 #Title {
   text-align: center;
   margin-top: 50px;
@@ -164,6 +166,36 @@ header ul > li {
 .videoinfo > p {
   margin-top: 10px;
 }
+
+.assignment-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80vw;
+}
+
+.assignment-box {
+  background-color :#C3E2DD;
+  box-shadow: lightgray 5px 5px 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  height: 360px;
+  width: 300px;
+  margin: 30px;
+}
+
+.assignment-photo {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+  border-radius: 1rem;
+}
+
+
 
 footer {
   width: 100%;
