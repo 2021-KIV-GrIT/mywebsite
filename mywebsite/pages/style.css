@@ -140,9 +140,16 @@ header ul > li {
 
 #video {
   display: flex;
-  flex-direction: row;
-  margin: 50px;
-  width: 60vw;
+  flex-direction: column;
+}
+
+#video > iframe {
+  margin-top: 100px;
+}
+
+#video > h2 {
+  text-align: center;
+  margin-top: 100px;
 }
 
 .youtube {
