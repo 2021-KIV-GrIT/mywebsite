@@ -72,6 +72,10 @@ header ul > li {
   font-size: 48px;
 }
 
+.description {
+  width: 30vw;
+}
+
 .title {
   font-size: 48px;
   height: 300px;
